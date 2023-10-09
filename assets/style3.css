@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 4fr);
+    grid-template-rows: repeat(2, 100px);
+}
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) and (resolution: 150dpi) {
+    body {
+    line-height: 1.4;
+    }
+}
